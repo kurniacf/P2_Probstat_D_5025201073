@@ -47,6 +47,8 @@ SD_before
 Maka hasilnya : 
 </br>
 ![1a-2](https://user-images.githubusercontent.com/70510279/170802086-33f51947-7316-4eb1-a173-8b27355b2c21.jpg)
+</br>
+
 Standar deviasi setelah aktivitas adalah
 ```
 SD_after <-sd(after)
