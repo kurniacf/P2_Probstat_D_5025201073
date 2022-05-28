@@ -96,3 +96,39 @@ t.test(before, after, var.equal = TRUE)
 Bisa dilihat bahwa mean dan convidence sama dengan 1b, yang berbeda adalah p-value dan df. Sehingga tidak memiliki pengaruh yang signifikan secara statistika
 
 ### Nomor 2
+Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun. Untuk menguji klaim ini, 100 pemilik mobil yang dipilih secara acak diminta untuk mencatat jarak yang mereka tempuh. Jika sampel acak menunjukkan rata-rata 23.500 kilometer dan standar deviasi 3900 kilometer. (Kerjakan menggunakan 2 library seperti referensi pada modul).
+
+#### 2a
+Apakah Anda setuju dengan klaim tersebut?
+
+*Setuju*
+
+#### 2b
+Jelaskan maksud dari output yang dihasilkan!
+
+![2c](https://user-images.githubusercontent.com/70510279/170825033-001339b6-b1c3-42ab-b928-162ead8d4fbe.jpg)
+
+Diketahui n = 100, Rata-Rata (X̄) = 23500, dan standar deviasi(σ) = 3900
+Maka null hipotesis adalah 
+```
+H0 : μ = 20000
+```
+Alternatif hipotesisnya yaitu
+```
+H1 : μ > 20000
+```
+
+#### 2c
+Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
+
+
+Untuk mencari nilai z nya yaitu 
+</br>
+![image-removebg-preview](https://user-images.githubusercontent.com/70510279/170823253-92e9ca27-09f7-4d40-a51c-9fd4392bb742.png)
+
+Lalu mencari nilai p-value nya sebagai berikut
+![image-removebg-preview (1)](https://user-images.githubusercontent.com/70510279/170823313-044b2776-38ff-49d4-bca6-455ef75db0a5.png)
+![image-removebg-preview (2)](https://user-images.githubusercontent.com/70510279/170823338-3d86d1f2-14dc-458c-af6a-eb06f0fd8333.png)
+
+Sehingga kesimpulan yang didapat adalah bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun
+
