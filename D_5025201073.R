@@ -38,3 +38,10 @@ t.test(before, after, alternative = "greater", var.equal = FALSE)
 # pengaruh yang signifikan secara statistika dalam hal kadar saturasi
 # oksigen , sebelum dan sesudah melakukan aktivitas ????"
 
+var.test(before, after)
+
+t.test(before, after, var.equal = TRUE)
+
+# Soal 2
+# 2a
+
