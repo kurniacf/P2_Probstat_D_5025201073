@@ -45,6 +45,7 @@ SD_before <- sd(before)
 SD_before
 ```
 Maka hasilnya : 
+</br>
 ![1a-2](https://user-images.githubusercontent.com/70510279/170802086-33f51947-7316-4eb1-a173-8b27355b2c21.jpg)
 Standar deviasi setelah aktivitas adalah
 ```
@@ -52,6 +53,7 @@ SD_after <-sd(after)
 SD_after
 ```
 Maka hasilnya : 
+</br>
 ![1a-3](https://user-images.githubusercontent.com/70510279/170802089-d7e550cd-e308-41a0-9881-dee36fcec0f8.jpg)
 
 #### 1b
