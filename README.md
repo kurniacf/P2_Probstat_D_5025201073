@@ -359,6 +359,7 @@ print(tukey.cld)
 
 </br>
 Tambahkan compact letter display tersebut ke tabel dengan means(rata-rata) dan sd
+
 ```
 cld <- as.data.frame.list(tukey.cld$`Glass:Temp_Factor`)
 data_summary$Tukey <- cld$Letters
